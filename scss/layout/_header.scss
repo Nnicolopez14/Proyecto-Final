@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: $color-principal;
+    .logo img{
+        height: 3.125rem;
+        width: 9.375rem;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-terciario;
+        padding: 1rem 1.5rem;
+        border-radius: 40px;
+        .navbar{
+            display: flex;
+            gap: 1.25rem;
+            list-style: none;
+            li:hover{
+                transform: scale(1.1);
+            }
+            li a{
+                text-decoration: none;
+                font-size: 1.25rem;
+                color: $color-letra;
+                font-weight: 800;
+                gap: 1.5625rem;
+            }
+        }
+        & #toggle, & label{
+            display: none;
+        }
+        .botones{
+            .btn button{
+                font-weight: 700;
+                color: $color-terciario;
+                padding: 9px 25px;
+                background: $color-principal;
+                border: none;
+                border-radius: 50px;
+                &:hover{
+                    background-color: $color-secundario;
+                    color: $color-principal;
+                }
+            }
+        }
+    }
+}
