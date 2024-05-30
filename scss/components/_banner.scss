@@ -1,0 +1,41 @@
+main{
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(to right top, #e0ec18, #d49a1f, #a0572f, #542928, #000000);
+        div{
+            h1{
+                font-size: 50px;
+                font-weight: 600;
+                padding: 25px 25px;
+            }
+            p{
+                font-size: 25px;
+                font-weight: 300;
+                padding: 0 25px;
+            }
+            a{
+                padding: 25px 25px;
+            }
+            .btn button{
+                font-weight: 700;
+                color: white;
+                padding: 9px 25px;
+                background: $color-letra;
+                border: none;
+                border-radius: 50px;
+                &:hover{
+                    background-color: white;
+                    color: $color-letra;
+                }
+            }
+        }
+        img{
+            width: 50%;
+            height: 150px;
+        }
+    }
+}
