@@ -1,0 +1,11 @@
+main{
+    .imagen-sumate{
+        height: 600px;
+        width: 100%;
+        .foto-nike2{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
