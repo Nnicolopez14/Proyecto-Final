@@ -638,4 +638,61 @@ main .ver-mas {
           font-weight: 200;
           margin-bottom: 5px; }
   main .slider-box {
-    width: 100%; } }
+    width: 100%; }
+  main .formu {
+    display: flex;
+    flex-direction: column;
+    height: 950px; }
+    main .formu .form-information {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px; }
+      main .formu .form-information .form-inf {
+        font-size: small; }
+      main .formu .form-information .form {
+        margin: 30px 0 0 0; }
+        main .formu .form-information .form label {
+          width: 100%; }
+    main .formu .contenido-info {
+      width: 100%;
+      text-align: center;
+      justify-content: center; } }
+
+@media (max-width: 376px) {
+  .header nav .botones {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    left: 50px; }
+  .header nav #toggle:checked ~ .botones {
+    height: 100%; }
+  main .banner img {
+    width: 75px;
+    height: 100px; }
+  main .encontranos2 {
+    flex-direction: column;
+    padding: 20px; }
+    main .encontranos2 iframe {
+      width: 165px;
+      height: 165px; }
+  main .formu {
+    display: flex;
+    flex-direction: column;
+    height: 700px; }
+    main .formu .form-information {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px; }
+      main .formu .form-information .form-inf {
+        font-size: small; }
+      main .formu .form-information .form {
+        margin: 30px 0 0 0; }
+        main .formu .form-information .form label {
+          width: 100%; }
+    main .formu .contenido-info {
+      width: 100%;
+      text-align: center;
+      justify-content: center; } }
