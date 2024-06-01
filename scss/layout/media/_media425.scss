@@ -1,0 +1,176 @@
+@media(max-width:426px){
+    .header{
+        nav{
+            .menu{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+            }
+            .navbar{
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem 0;
+            }
+            label{
+                display: inline-flex;
+                color: $color-letra;
+            }
+            #toggle:checked ~.menu{
+                height: 100%;
+            }
+            .botones{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+                position: relative;
+                left: 100px;
+            }
+            #toggle:checked ~.botones{
+                height: 100%;
+            }
+        }
+    }
+    main{
+        section{
+            height: 400px;
+            width: 100%;
+            .foto-nike{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .video-youtube{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 400px;
+            .video{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .encontranos{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .encontranos1{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 110px;
+                height: 110px;
+            }
+        }
+        .encontranos2{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 180px;
+                height: 180px;
+            }
+        }
+        .products-container,.products-container-1,.products-container-2,.products-container-3{
+            max-width: 426px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            .container-card{
+                width: 250px;
+                height: 400px;
+                flex-direction: column;
+                text-align: center;
+                border-radius: .625rem;
+                overflow: hidden;
+                box-shadow: 1px 1px 5px black;
+                background: white;
+                div{
+                    width: 100%;
+                    height: 50%;
+                    img{
+                        width: 100%;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(to right top, #e0ec18, #d49a1f, #a0572f, #542928, #000000);
+            div{
+                h1{
+                    font-size: 50px;
+                    font-weight: 600;
+                    padding: 25px 25px;
+                }
+                p{
+                    font-size: 25px;
+                    font-weight: 300;
+                    padding: 0 25px;
+                }
+                a{
+                    padding: 25px 25px;
+                }
+                .btn button{
+                    font-weight: 700;
+                    color: white;
+                    padding: 9px 25px;
+                    background: $color-letra;
+                    border: none;
+                    border-radius: 50px;
+                    &:hover{
+                        background-color: white;
+                        color: $color-letra;
+                    }
+                }
+            }
+            img{
+                width: 30%;
+                height: 100px;
+            }
+        }
+        .card{
+            max-width: 426px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            .card-img,.card-img-1,.card-img-2,.card-img-3{
+                display: flex;
+                width: 80%;
+                height: 90%;
+                img{
+                    width: 150px;
+                    height: 100%;
+                }
+                .contenido,.contenido-1,.contenido-2,.contenido-3{
+                    text-align: center;
+                    justify-content: center;
+                    p{
+                        line-height: 1;
+                        color: $color-letra;
+                    }
+                    h3{
+                        font-weight: 200;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+        .slider-box{
+            width: 100%;
+        }
+    }
+}
