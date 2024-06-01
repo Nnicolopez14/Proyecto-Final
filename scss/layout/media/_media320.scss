@@ -1,0 +1,108 @@
+@media(max-width:320px){
+    main{
+        .card{
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            .card-img,.card-img-1,.card-img-2,.card-img-3{
+                width: 250px;
+                height: 450px;
+                flex-direction: column;
+                text-align: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .contenido,.contenido-1,.contenido-2,.contenido-3{
+                    text-align: center;
+                    justify-content: center;
+                    p{
+                        line-height: 1;
+                        color: $color-letra;
+                    }
+                    h3{
+                        font-weight: 200;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+        .encontranos{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .encontranos1{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .encontranos2{
+            flex-direction: column;
+            padding: 20px;
+            iframe{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .slider-box{
+            width: 100%;
+            height: auto;
+            ul{
+                li{
+                    .foto{
+                        img{
+                            object-fit: fill;
+                        }
+                    }
+                }
+            }
+        }
+        .banner{
+            display: flex;
+            width: 100%;
+            height: 350px;
+            div{
+                h1{
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding: 25px 25px;
+                }
+                p{
+                    font-size: 30px;
+                    font-weight: 300;
+                    padding: 0 25px;
+                }
+            }
+            img{
+                visibility: hidden;
+            }
+        }
+    }
+    .header{
+        nav{
+            .botones{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+                position: relative;
+            }
+            #toggle:checked ~.botones{
+                height: 100%;
+            }
+        }
+    }
+}
