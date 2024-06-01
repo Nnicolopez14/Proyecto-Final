@@ -1,8 +1,9 @@
 main{
     .subtitulo{
         font-weight: 900;
+        height: 20px;
     }
-    .products-container{
+    .products-container,.products-container-1,.products-container-2,.products-container-3{
         display: flex;
         justify-content: center;
         gap: 4.375rem;
@@ -25,6 +26,7 @@ main{
                 }
             }
             button{
+                margin-top: 50px;
                 font-weight: 700;
                 padding: 9px 25px;
                 background: $color-secundario;
