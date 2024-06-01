@@ -1,11 +1,5 @@
 @import "./utilities/variables";
 @import "./base/reset";
-@import "./components/carrusel-index";
-@import "./components/carrusel-principal";
-@import "./components/cards";
-@import "./components/banner";
-@import "./components/formu-sumate";
-@import "./components/cards-oportunidades";
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer";
@@ -13,6 +7,12 @@
 @import "./layout/main-encontranos";
 @import "./layout/main-sumate";
 @import "./layout/main-index";
+@import "./components/carrusel-index";
+@import "./components/carrusel-principal";
+@import "./components/cards";
+@import "./components/banner";
+@import "./components/formu-sumate";
+@import "./components/cards-oportunidades";
 @import "./layout/media/media768";
 @import "./layout/media/media425";
 @import "./layout/media/media376";
